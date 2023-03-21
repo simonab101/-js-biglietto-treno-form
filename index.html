@@ -18,11 +18,11 @@
         <div class="col-7 bg-white rounded my-3">
           <div class="d-flex justify-content-evenly m-3">
             <div id="name-field-container">
-              <label for="name">Nome e cognome</label> <br />
+              <label for="name">Nome e cognome</label> <br/>
               <input type="text" id="name" class="form-field">
             </div>
             <div id="kms-field-container">
-              <label for="kms">Chilometri</label> <br />
+              <label for="kms">Chilometri</label> <br/>
               <input type="number" id="kms" class="form-field" min="5" max="200" step="5">
             </div>
             <div id="age-field-container">
@@ -35,10 +35,16 @@
                 <option value="over">Over 65</option>
               </select>
             </div>
+          </div>
+          <div id="buttons" class="m-3 text-center">
+            <button type="button" id="generate-btn" class="m-3">Genera</button>
+            <button type="button" id="reset-btn" class="m-3">Annulla</button>
+          </div>
         </div>
-      </section>    
-    </div>       
-  </div>            
+      </section>
+    </div>
+
+          
   <script src="scrypt.js"></script>
 </body>
 </html>
