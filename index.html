@@ -16,6 +16,26 @@
     <div class="container">
       <section id="ticket-form" class="row justify-content-center">
         <div class="col-7 bg-white rounded my-3">
+          <div class="d-flex justify-content-evenly m-3">
+            <div id="name-field-container">
+              <label for="name">Nome e cognome</label> <br />
+              <input type="text" id="name" class="form-field">
+            </div>
+            <div id="kms-field-container">
+              <label for="kms">Chilometri</label> <br />
+              <input type="number" id="kms" class="form-field" min="5" max="200" step="5">
+            </div>
+            <div id="age-field-container">
+              <label for="age">Fascia d'et&agrave;</label>
+              <br />
+              <select id="age" class="form-field">
+                <option value="">--</option>
+                <option value="minor">Minorenne</option>
+                <option value="adult">Adulto</option>
+                <option value="over">Over 65</option>
+              </select>
+            </div>
+        </div>
       </section>    
     </div>       
   </div>            
