@@ -15,7 +15,7 @@ Sulla base di queste informazioni dovrà calcolare il prezzo totale del bigliett
 1. Ottengo gli elementi html 
 2. Collego Event a Generate Button
 4. Computo il prezzo base
-5. Computo lo sconti
+5. Computo lo sconto
 6. Simulo il numero della Carrozza
 7. Simulo il CP
 8. Display results
